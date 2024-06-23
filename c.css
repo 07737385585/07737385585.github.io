@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;/* padding توسع الحدود الداخلة*/
+    box-sizing: border-box;
+}
+/* جسم الصفحة */
+body{
+    background-color: white;
+    font-family: sans-serif;/* نوع الخط*/
+}
+.profile{
+   width: 40%;
+   float: right;/* الطوفان*/
+
+}
+.profile image{
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;    /* قص حواف الصورة*/
+    border-bottom: 5px;
+}
+.about{
+    margin-left: 25px;
+}
+.profile-info{
+    width: 60%;
+    float: left;
+    padding: 0;
+}
+.profile-info h1{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 0;
+}
+
+.profile-info h2{
+    margin-top: 50px;
+    margin-bottom: 15px;
+    margin-left: 5%;
+}
+.Projects{
+display: inline-block;
+width: 28%;
+padding: 30px 10px;
+margin: 2%;
+text-align: center;
+box-shadow: 0 0 15px rgba(37, 73, 214, 0.18);
+}
+.Projects img{
+    width: 30%;
+    margin: 5px;
+}
+.Projects small{
+    padding-top: 15px;
+    display: block;
+}
+.photo{
+    margin-top: 30px;
+    margin-left: 5px;
+}
+.photo img{
+    width: 31%;
+    padding: 4px;
+    margin-bottom: 5px;
+    margin-left: 3px;
+    border: 1px solid gray;
+    cursor: pointer;
+    margin: 1%;
+}
+.for_box{
+    margin-top: 25px;
+    margin-left: 5px;
+    font-weight: bold;
+}
+.input_group input{
+    width: 30%;
+    border: 0;
+    padding: 10px;
+    background-color: rgba(192, 192, 192);
+    margin: 1%;
+    display:inline-block ;
+}
+.text-area textarea{
+    width: 95%;
+    border: 0;
+    outline: none!important;
+    padding: 10px;
+    background-color: rgba(192, 192, 192);
+    margin: 1%;
+}
+.sub{
+    border: 0;
+    outline: none!important;
+    padding: 10px;
+    background-color: rgba(48, 139, 192);
+    margin: 1%;
+    cursor: pointer;
+    font-weight: bold;
+    color: white;
+
+}
+
+.cont{
+    margin: 5% 0 5% 25% ;
+    width: 50%;
+    font-weight: bold;
+  
+}
+.cont img{
+    width: 20px;
+    margin: 1px 2px;
+    transition: 2s;
+}
+.cont img:hover{
+  transform: rotate(360deg);
+}
+.cont span{
+    margin: 1%;
+}
+.copy{
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: silver;
+}
+@media only screen and (max-width:900px) {
+    .profile-info{
+        width: 95%;
+    }
+    .profile{
+        width: 95%;
+    }
+    .profile img{
+        width: 90%;
+    }
+    .Projects{
+        width: 95%;
+        margin-bottom: 15px;
+    }
+    .cont span{
+        font-size: 12px;
+    }
+    .cont img{
+        width: 12px;
+    }
+
+}
+
