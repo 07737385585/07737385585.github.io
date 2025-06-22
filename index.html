@@ -212,7 +212,7 @@
         }
 
         .project-image::after {
-            content: "صورة المشروع";
+            content: "";
             position: absolute;
             bottom: 10px;
             left: 50%;
@@ -354,10 +354,10 @@
         </div>
 
         <div class="nav">
-            <button class="nav-btn active" onclick="showSection('about')"></button>
-            <button class="nav-btn" onclick="showSection('skills')">جيد في بناء تطبيقات سطح المكتب</button>
+            <button class="nav-btn active" onclick="showSection('about')"> نبذة عني</button>
+            <button class="nav-btn" onclick="showSection('skills')">مهاراتي التقنية</button>
             <button class="nav-btn" onclick="showSection('projects')">مشاريعي</button>
-            <button class="nav-btn" onclick="showSection('contact')">تواصل معي</button>
+            <button class="nav-btn" onclick="showSection('contact')">مواقع التواصل  </button>
         </div>
 
         <div id="about" class="section active">
@@ -391,17 +391,17 @@
                 <div class="skill-item">
                     <div class="skill-icon">🌐</div>
                     <h3>تطوير الويب</h3>
-                    <p>HTML, CSS</p>
+                    <p>HTML, CSS,JavaScript..قريباً</p>
                 </div>
                 <div class="skill-item">
                     <div class="skill-icon">⚙️</div>
-                    <h3>الخادم الخلفي</h3>
-                    <p>Node.js, Python, PHP, Express.js</p>
+                    <h3>تطوير تطبيقات سطح المكتب</h3>
+                    <p>C++, Python, C#</p>
                 </div>
                 <div class="skill-item">
                     <div class="skill-icon">🗄️</div>
                     <h3>قواعد البيانات</h3>
-                    <p>MySQL, Excal, SqlServer</p>
+                    <p>MySQL, Excal, SqlServer,SqlLite</p>
                 </div>
             </div>
         </div>
@@ -416,72 +416,100 @@
             <div class="projects-grid">
                 <div class="project-card">
                     <!-- ضع رابط صورة المشروع الأول هنا -->
-                    <div class="project-image" style="background-image: url('https://via.placeholder.com/300x200/667eea/ffffff?text=مشروع+1');"></div>
-                    <div class="project-title">تطبيق إدارة المهام</div>
-                    <div class="project-description">تطبيق ويب شامل لإدارة المهام اليومية مع إمكانية إضافة وتعديل وحذف المهام، وتصنيفها حسب الأولوية مع نظام تذكير ذكي.</div>
+                    <div class="project-image" style="background-image: url('dental.gif');"></div>
+                    <div class="project-title">تطبيق Dental Clinic    </div>
+                    <div class="project-description">يهدف تطبيق سطح المكتب لعيادة الأسنان إلى تسهيل إدارة العيادة وتنظيم العمليات اليومية بشكل إلكتروني وفعّال. يساعد هذا البرنامج في تسجيل معلومات المرضى، متابعة المواعيد، إدارة العلاجات، والاحتفاظ بسجلات زيارات المرضى والأدوية الموصوفة، مما يقلل الاعتماد على الملفات الورقية ويزيد من دقة وسرعة العمل.</div>
                     <div class="project-tags">
-                        <span class="tag">React</span>
-                        <span class="tag">Node.js</span>
-                        <span class="tag">MongoDB</span>
-                        <span class="tag">CSS3</span>
+                        <span class="tag">C#</span>
+                        <span class="tag">WindowsForm</span>
+                        <span class="tag">SqlServerManagement</span>
+                        <span class="tag">VisualStudio2019</span>
                     </div>
                 </div>
 
                 <div class="project-card">
                     <!-- ضع رابط صورة المشروع الثاني هنا -->
-                    <div class="project-image" style="background-image: url('https://via.placeholder.com/300x200/764ba2/ffffff?text=مشروع+2');"></div>
-                    <div class="project-title">موقع متجر إلكتروني</div>
-                    <div class="project-description">متجر إلكتروني متكامل مع نظام سلة التسوق المتطور، معالجة المدفوعات الآمنة، وإدارة المخزون الذكية مع لوحة تحكم للإدارة.</div>
+                    <div class="project-image" style="background-image: url('Cyber\ X\ Team.jpg');"></div>
+                    <div class="project-title">معهد Cyber X</div>
+                    <div class="project-description">قيد التطوير....</div>
                     <div class="project-tags">
-                        <span class="tag">Vue.js</span>
-                        <span class="tag">PHP</span>
-                        <span class="tag">MySQL</span>
-                        <span class="tag">Bootstrap</span>
+                        <span class="tag">C#</span>
+                        <span class="tag">WindowsForm</span>
+                        <span class="tag">SqlServerManagement</span>
+                        <span class="tag">VisualStudio2019</span>
                     </div>
                 </div>
 
                 <div class="project-card">
                     <!-- ضع رابط صورة المشروع الثالث هنا -->
-                    <div class="project-image" style="background-image: url('https://via.placeholder.com/300x200/28a745/ffffff?text=مشروع+3');"></div>
-                    <div class="project-title">تطبيق الطقس الذكي</div>
-                    <div class="project-description">تطبيق محمول وويب لعرض حالة الطقس مع توقعات دقيقة، خرائط تفاعلية، وتنبيهات الطقس الطارئة مع واجهة مستخدم جميلة.</div>
+                    <div class="project-image" style="background-image: url('200.gif');"></div>
+                    <div class="project-title">تطبيق Staff management</div>
+                    <div class="project-description">تطبيق إدارة الموظفين هو نظام يهدف إلى تسهيل وتنظيم عملية إدارة الموارد البشرية داخل المؤسسات والشركات. يساعد هذا التطبيق المسؤولين على تتبع معلومات الموظفين مثل الأسماء، الوظائف، الرواتب، الحضور، والإجازات بشكل سهل وفعّال. من خلال واجهة بسيطة وسهلة الاستخدام، يمكن للإدارة إضافة وتعديل وحذف بيانات الموظفين، مما يوفر الوقت ويقلل من الأخطاء الناتجة عن المعالجة اليدوية. يُعد هذا التطبيق أداة مهمة لتحسين كفاءة العمل واتخاذ قرارات إدارية مبنية على بيانات دقيقة ومحدثة.
+
+</div>
                     <div class="project-tags">
-                        <span class="tag">React Native</span>
-                        <span class="tag">API Integration</span>
-                        <span class="tag">Maps</span>
-                        <span class="tag">Push Notifications</span>
+                       <span class="tag">C#</span>
+                        <span class="tag">WindowsForm</span>
+                        <span class="tag">SqlServerManagement</span>
+                        <span class="tag">VisualStudio2019</span>
                     </div>
                 </div>
             </div>
         </div>
 
         <div id="contact" class="section">
-            <h2>تواصل معي</h2>
+            <h2> حساباتي الرسمية</h2>
             
             <div class="code-comment">
-                // هنا حدث معلومات التواصل الخاصة بك
+                <!--// هنا حدث معلومات التواصل الخاصة بك -->
             </div>
-            
-            <div class="contact-info">
-                <div class="contact-item">
-                    <div class="contact-icon">📧</div>
-                    <h3>البريد الإلكتروني</h3>
-                    <!-- ضع إيميلك هنا -->
-                    <p>muhammedprogramming14@gmail.com</p>
-                </div>
                 <div class="contact-item">
                     <div class="contact-icon">📱</div>
                     <h3>رقم الهاتف</h3>
                     <!-- ضع رقم هاتفك هنا -->
-                    <p>+964 7737385585/p>
+                    <p>+9647737385585<p>
                 </div>
                
+               <div class="contact-item">
+  
+  <!-- هذا الجزء مخصص لأيقونة إنستغرام، استبدل الإيموجي بصورة -->
+  <div class="contact-icon">
+    <!-- استبدل 'images/instagram.png' بمسار الصورة الفعلي في مشروعك -->
+    <img src="icons8_instagram.ico" width="24" alt="Instagram">
+  </div>
+  
+  <!-- عنوان القسم - تقدر تغيره حسب الحاجة -->
+  <h3>إنستغرام</h3>
+  
+  <!-- الرابط لحساب إنستغرام - لازم تستبدله برابطك الحقيقي -->
+  <p>
+    <!-- استخدم <a> حتى يصير الرابط قابل للنقر، واستبدل بالرابط الصحيح -->
+    <a href="https://www.instagram.com/ekvvc" target="_blank">
+      @instagram.com/ekvvc
+    </a>
+  </p>
+
+</div>
                 <div class="contact-item">
-                    <div class="contact-icon">📷</div>
-                    <h3>إنستغرام</h3>
-                    <!-- ضع رابط إنستغرام هنا -->
-                    <p>@https://www.instagram.com/ekvvc?igsh=MTAwdGVwdTBhdzMwZw==</p>
-                </div>
+  
+  <!-- أيقونة فيسبوك (استبدل الإيموجي بصورة) -->
+  <div class="contact-icon">
+    <!-- استبدل 'images/facebook.png' بمكان الصورة داخل مجلد المشروع -->
+    <img src="icons8_facebook.ico" width="24" alt="Facebook">
+  </div>
+
+  <!-- عنوان القسم - تقدر تغيره حسب الحاجة -->
+  <h3>فيسبوك</h3>
+
+  <!-- رابط الفيسبوك - خليه قابل للنقر باستخدام <a> -->
+  <p>
+    <!-- استبدل الرابط برابط حسابك أو مشاركتك -->
+    <a href="https://www.facebook.com/share/14yN7yEeJs/" target="_blank">
+      facebook.com/share/14yN7yEeJs/
+    </a>
+  </p>
+
+</div>
             </div>
         </div>
     </div>
